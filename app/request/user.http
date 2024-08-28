@@ -1,0 +1,29 @@
+###
+GET http://localhost:4000/user?test=foo
+Authorization: Bear 1231231
+
+### 
+POST http://localhost:4000/user
+Content-Type: application/json
+
+{
+    "id": 1,
+    "userId": "Alic1e",
+    "password": "alice@prisma.io",
+    "createdBy": "1",
+    "updatedBy": "1",
+    "createdAt": "2023-08-18T21:31:14.522Z",
+    "updatedAt": "2023-08-18T21:31:14.522Z",
+    "deleted": false
+}
+
+###
+GET http://localhost:4000/redis
+
+
+###
+GET http://localhost:4000/foo/bar
+
+
+###
+GET http://localhost:4000/ping

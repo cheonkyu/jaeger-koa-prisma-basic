@@ -1,0 +1,4 @@
+koa-prisma/node_modules/*
+koa-prisma/prisma/migrations/*
+# Keep environment variables out of version control
+.env
